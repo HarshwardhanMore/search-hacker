@@ -68,6 +68,13 @@
   justify-content: center;
   align-items: center;
 }
+.main-top > .heading{
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-bottom: 2px;
+} 
+
 .main-bottom{
   height: 70%;
   width: 80%;
@@ -97,8 +104,11 @@
   .main-top {
     height: 20%;
   }
-  .heading{
-    font-size: x-large;
+  .main-top > .heading{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 2px;
   }
 
   .main-bottom {

@@ -241,7 +241,7 @@ const App = () => {
       ) : (
         <div className="main">
           <div className="main-top">
-            <h1 className="heading">Hacker News Search</h1>
+            <div className="heading">Hacker News Search</div>
             <SearchBar onSearch={handleSearch} />
           </div>
           {loadingResults ? (
